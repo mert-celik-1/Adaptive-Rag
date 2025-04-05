@@ -32,5 +32,5 @@ route_prompt = ChatPromptTemplate.from_messages(
 
 question_router = route_prompt | structured_llm_router
 
-if __name__ == "__main__":
-    print(question_router.invoke({"question": "What is the best way to implement a large language model?"}))
+#if __name__ == "__main__":
+    #print(question_router.invoke({"question": "What is the best way to implement a large language model?"}))
