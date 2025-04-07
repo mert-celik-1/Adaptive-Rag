@@ -103,3 +103,6 @@ dmypy.json
 # Windows
 Thumbs.db
 ehthumbs.db
+
+
+*.chroma
