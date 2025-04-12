@@ -31,7 +31,9 @@ def grade_documents(state:GraphState) -> Dict[str,Any] :
                 "question": question,
             })
 
-        grade = score.binary_score
+        # grade = score.binary_score
+
+        grade = score["binary_score"]
 
         if grade.lower() == "yes" :
             print("---GRADE : DOCUMENT RELEVANT---")
